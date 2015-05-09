@@ -1,0 +1,12 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/",
+    "cover": "istanbul cover node_modules/.bin/_mocha ./tests/*"
+  },
+  "author": "Alexander Malyk <shu.rick.ifmo@gmail.com> (https://github.com/qshurick)",
+  "license": "ISC"
+}
